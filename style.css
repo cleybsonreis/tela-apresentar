@@ -68,10 +68,9 @@ nav > a{
     text-decoration: none;
     color: #9090fc;
     font-family: "Reddit Mono", monospace;
-    transition-duration: 0.8s;
+    transition-duration: 0.7s;
 }
 nav > a:hover{
     background-color: var(--cor03);
     color: #b7b7fa;
-
 }
