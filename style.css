@@ -10,30 +10,30 @@
 }
 body{
     background-color:var(--cor01);
-    margin-top: 650px;
-    margin-bottom: 650px;
 }
 main{
     background-color: var(--cor02);
-    width: 25%;
+    max-width: 350px;
     text-align: center;
     border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding-top: 25px;
+
     box-shadow: 0px 1px 7px var(--cor04);
+    height: fit-content;
+    
 }
 main > picture > img{
     width: 25%;
     border-radius: 50%;
     border: 3px solid var(--cor03);
-    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
 }
 img:hover{
     border: 3px solid #8383e7;
-    transition-duration: 0.8s;
 }
 .name{
     font-family: "Reddit Mono", monospace;
